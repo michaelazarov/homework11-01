@@ -1,0 +1,32 @@
+*,
+:before,
+:after {
+ box-sizing: border-box;
+ font-weight: 300;
+}
+
+body {
+ max-width: 800px;
+ margin: 60px auto;
+ font-family: sans-serif;
+}
+
+.section {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.img {
+ max-width: 100%;
+ margin-top: 20px;
+}
+.sign {
+ max-width: 100%;
+ margin-bottom: 10px;
+}
+
+
